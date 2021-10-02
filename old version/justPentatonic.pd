@@ -1,0 +1,55 @@
+#N canvas 253 22 944 688 10;
+#X floatatom 69 432 5 0 0 0 - - -;
+#X obj 77 127 select 0 1 2 3 4 5;
+#X obj 769 215 ratio 2 1 octave;
+#X obj 479 215 ratio 3 2 fifth;
+#X obj 334 215 ratio 4 3 fourth;
+#X obj 189 215 ratio 9 8 4th_below_5th;
+#X obj 624 215 ratio 27 16 5th_above_2nd;
+#X obj 44 215 ratio 1 1 fundamental;
+#X obj 147 647 outlet;
+#X obj 21 21 cnv 15 166 55 empty empty Pentatonic-\$1 6 12 0 12 -233017
+-66577 0;
+#X obj 122 26 hradio 15 1 0 4 empty empty empty 65 6 0 11 -262130 -86277
+-162280 0;
+#X obj 28 48 hradio 20 1 0 6 empty empty empty 0 -8 0 10 -262144 -4034
+-258113 0;
+#X obj 226 451 octaver;
+#X msg 23 427 0;
+#X obj 74 522 *;
+#X obj 91 488 r rawpitch;
+#X obj 149 602 *;
+#X obj 361 61 r init;
+#X obj 361 107 t b b;
+#X obj 458 64 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+-1;
+#X floatatom 259 536 5 0 0 0 - - -;
+#X obj 618 117 t b;
+#X connect 0 0 14 0;
+#X connect 1 0 7 0;
+#X connect 1 1 5 0;
+#X connect 1 2 4 0;
+#X connect 1 3 3 0;
+#X connect 1 4 6 0;
+#X connect 1 5 2 0;
+#X connect 2 0 0 0;
+#X connect 3 0 0 0;
+#X connect 4 0 0 0;
+#X connect 5 0 0 0;
+#X connect 6 0 0 0;
+#X connect 7 0 0 0;
+#X connect 10 0 12 0;
+#X connect 10 0 21 0;
+#X connect 11 0 1 0;
+#X connect 12 0 16 1;
+#X connect 12 0 20 0;
+#X connect 13 0 14 0;
+#X connect 14 0 16 0;
+#X connect 15 0 14 1;
+#X connect 16 0 8 0;
+#X connect 17 0 18 0;
+#X connect 18 0 11 0;
+#X connect 18 1 10 0;
+#X connect 19 0 18 0;
+#X connect 21 0 0 0;
+#X coords 0 -1 1 1 168 57 1 20 20;

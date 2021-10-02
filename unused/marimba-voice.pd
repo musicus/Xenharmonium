@@ -1,0 +1,11 @@
+#N canvas 771 803 450 300 12;
+#X obj 69 41 inlet;
+#X obj 76 149 marimba~;
+#X obj 70 79 unpack 0 0;
+#X obj 73 113 mtof;
+#X obj 91 203 outlet~;
+#X connect 0 0 2 0;
+#X connect 1 0 4 0;
+#X connect 2 0 3 0;
+#X connect 2 1 1 1;
+#X connect 3 0 1 0;
