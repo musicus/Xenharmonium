@@ -1,2 +1,2 @@
 # Xenharmonium
-Alternate Tuning Systems in Pd
+Alternate Tuning Systems Library for Pd
