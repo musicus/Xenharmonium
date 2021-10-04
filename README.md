@@ -9,3 +9,6 @@ Download Pd:
 
 A quick Pd tutorial:
 - http://www.pd-tutorial.com/
+
+# Notes
+To use meantoneTemperament.pd the pd zexy library is required. You can install the library by selecting "Help" > "find externals"  
