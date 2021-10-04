@@ -1,5 +1,6 @@
 # Xenharmonium
-Alternate Tuning Systems Library for Pure Data (Pd).
+Alternate Tuning Systems Library for Pure Data (Pd). 
+The library is designed for tuning system demonstrations and tutorials in the classroom.
 
 What it is for: 
 - https://youtu.be/Xfv3qLdtURY
