@@ -1,0 +1,3 @@
+#N canvas 1018 604 269 98 12;
+#X msg 29 37 220;
+#X text 93 37 <== message object;

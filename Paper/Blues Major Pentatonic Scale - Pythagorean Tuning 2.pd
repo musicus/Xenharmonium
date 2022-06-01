@@ -1,0 +1,9 @@
+#N canvas 1018 604 359 177 12;
+#X msg 29 37 220;
+#X obj 29 66 * 1;
+#X obj 29 95 / 1;
+#X floatatom 29 124 5 0 0 0 - - - 0;
+#X text 93 37 <== push message object;
+#X connect 0 0 1 0;
+#X connect 1 0 2 0;
+#X connect 2 0 3 0;
