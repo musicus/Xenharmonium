@@ -1,4 +1,4 @@
-#N canvas 43 249 1916 1045 12;
+#N canvas 1124 184 1916 1045 12;
 #X obj 802 46 inlet;
 #X obj 326 33 inlet;
 #X obj 668 863 outlet;
@@ -8,7 +8,7 @@
 #X floatatom 662 481 5 0 0 0 - - -;
 #X msg 551 587 just \$1;
 #X obj 385 547 spigot;
-#X obj 391 324 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0
+#X obj 391 324 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 1
 1;
 #X obj 560 542 spigot;
 #X obj 704 335 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0
@@ -24,7 +24,7 @@
 #X obj 1106 410 select 1;
 #X msg 1110 484 0;
 #X obj 803 87 hradio 15 1 0 5 empty empty empty 0 -8 0 10 -262144 -1
--1 4;
+-1 0;
 #X obj 1288 356 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1
 0 1;
 #X obj 1315 410 select 1;
@@ -42,7 +42,7 @@
 #X obj 803 164 select 0 1 2 3 4;
 #X msg 1530 231 1;
 #X obj 1527 266 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1
-1 1;
+0 1;
 #X obj 1594 360 select 1;
 #X msg 1598 434 0;
 #X obj 1481 604 spigot;
@@ -54,10 +54,10 @@
 #X connect 5 0 10 0;
 #X connect 6 0 12 0;
 #X connect 7 0 2 0;
-#X connect 8 0 3 0;
+#X connect 8 0 7 0;
 #X connect 9 0 8 1;
 #X connect 9 0 14 0;
-#X connect 10 0 7 0;
+#X connect 10 0 3 0;
 #X connect 11 0 10 1;
 #X connect 11 0 17 0;
 #X connect 12 0 34 0;

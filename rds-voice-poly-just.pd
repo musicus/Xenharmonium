@@ -1,0 +1,13 @@
+#N canvas 477 48 918 862 12;
+#X obj 29 68 unpack 0 0;
+#X obj 30 26 inlet;
+#X obj 30 278 /~ 2;
+#X obj 30 326 outlet~;
+#X obj 28 178 justIntonation;
+#X obj 29 228 rds~;
+#X connect 0 0 4 0;
+#X connect 0 1 5 1;
+#X connect 1 0 0 0;
+#X connect 2 0 3 0;
+#X connect 4 0 5 0;
+#X connect 5 0 2 0;

@@ -1,0 +1,11 @@
+#N canvas 1740 803 450 300 12;
+#X obj 36 28 inlet;
+#X obj 36 69 unpack 0 0;
+#X obj 37 164 rds~;
+#X obj 36 110 mtof;
+#X obj 32 233 outlet~;
+#X connect 0 0 1 0;
+#X connect 1 0 3 0;
+#X connect 1 1 2 1;
+#X connect 2 0 4 0;
+#X connect 3 0 2 0;

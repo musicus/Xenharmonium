@@ -1,0 +1,12 @@
+rp 555;
+sd0 bang;
+1000 sd1 bang;
+1000 sd2 bang;
+1000 sd3 bang;
+1000 sd4 bang;
+1000 sd5 bang;
+1000 sd4 bang;
+1000 sd3 bang;
+1000 sd2 bang;
+1000 sd1 bang;
+1000 sd0 bang;

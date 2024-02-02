@@ -1,4 +1,4 @@
-#N canvas 42 67 935 685 10;
+#N canvas 814 280 1371 937 10;
 #X floatatom 45 513 10 0 0 0 - - -;
 #X obj 45 387 ratio 2 1 octave;
 #X obj 190 306 ratio 3 2 fifth;
@@ -17,10 +17,10 @@
 #X obj 45 118 select 0 1 2 3 4 5 6 7 8 9 10 11 12 13;
 #X obj 45 569 *;
 #X obj 62 535 r rawpitch;
-#X msg -23 532 0;
-#X obj 52 610 *;
+#X msg 16 533 0;
+#X obj 45 610 *;
 #X obj 232 495 octaver;
-#X obj 48 648 outlet;
+#X obj 45 648 outlet;
 #X obj 21 21 cnv 15 320 55 empty empty Chromatic-(12_step)-\$1 6 12
 0 12 -233017 -66577 0;
 #X obj 28 50 hradio 20 1 0 14 empty empty empty 0 -8 0 10 -262144 -4160
@@ -32,7 +32,7 @@
 #X obj 497 45 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
 #X obj 304 508 t b;
-#X obj 633 87 ratio 80 64;
+#X obj 626 95 ratio 80 64;
 #X connect 0 0 16 0;
 #X connect 1 0 0 0;
 #X connect 2 0 0 0;

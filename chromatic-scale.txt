@@ -1,0 +1,18 @@
+oct 16;
+pc13 bang;
+oct 8;
+1000 pc8 bang;
+1000 pc3 bang;
+1000 pc10 bang;
+1000 pc5 bang;
+1000 pc12 bang;
+1000 pc7 bang;
+1000 pc2 bang;
+1000 pc9 bang;
+1000 pc4 bang;
+1000 pc11 bang;
+1000 pc6 bang;
+1000 pc1 bang;
+1000 pc13 bang;
+2000 pc1 bang;
+pc13 bang;
